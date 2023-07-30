@@ -1,0 +1,150 @@
+:root {
+  --main-color: #2e2f42;
+  --secondary-color: #f4f4fd;
+  --third-color: #434455;
+  --accent-color: #4d5ae5;
+  --text-btn-color: #ffffff;
+  --active-color: #404bbf;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--third-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: var(--text-btn-color);
+}
+
+.logotype {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logotype .logotype-text-dark {
+  color: var(--main-color);
+}
+
+.menu-item > a {
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--active-color);
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--third-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--active-color);
+}
+
+.hero {
+  background-color: var(--main-color);
+}
+
+.hero-title {
+  color: var(--text-btn-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  background: var(--accent-color);
+  color: var(--text-btn-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--active-color);
+}
+
+.section-title {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.benefits-list-title,
+.team-name,
+.card-name {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team {
+  background-color: var(--secondary-color);
+}
+
+.team-list-item {
+  background-color: var(--text-btn-color);
+}
+
+.page-footer {
+  background: var(--main-color);
+}
+
+.footer-text {
+  color: var(--secondary-color);
+}
+
+.logotype-text-light {
+  color: var(--secondary-color);
+}
+
+.filters-button {
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  background: var(--active-color);
+  color: var(--text-btn-color);
+}
