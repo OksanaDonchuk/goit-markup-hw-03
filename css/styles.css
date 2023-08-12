@@ -80,6 +80,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid var(--another-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -121,14 +123,11 @@ body {
   align-items: center;
 }
 
-.menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .menu-link {
   font-weight: 500;
   color: var(--main-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
